@@ -1,0 +1,6 @@
+<p>Voici ma liste de courses :</p>
+<div *ngFor="let item of itemList">
+  <div (click)="goToItem(item)">
+    {{ item.id }} ......... {{ item.name }} ......... {{ item.qty }}
+  </div>
+</div>
